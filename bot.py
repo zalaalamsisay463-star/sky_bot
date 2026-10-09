@@ -2,7 +2,7 @@ import os
 from telegram import Update, ReplyKeyboardRemove
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("BOT_TOKEN" 8334324978:AAHBjAnKYBn_QS9GowEaMsbr3QNquRWMWis")
+TOKEN = os.getenv("BOT_TOKEN", "8334324978:AAHBjAnKYBn_QS9GowEaMsbr3QNquRWMWis")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # ReplyKeyboardRemove() ከስር ያሉትን የ Sign Up እና Log In ቁልፎች ያጠፋል
